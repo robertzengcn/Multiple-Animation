@@ -1,0 +1,4 @@
+repository "card_flip_test@ssl://zengjianze@sh03-plasticscm.unity.cn:8787"
+  path "/"
+    smartbranch "/main/zengjianze" 
+     

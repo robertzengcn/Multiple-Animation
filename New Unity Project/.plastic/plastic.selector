@@ -1,0 +1,4 @@
+repository "New Unity Project@ssl://wechat_os_qy054huypnqe-ccr2di8p_lpq@sh01-plasticscm.unity.cn:8787"
+  path "/"
+    smartbranch "/main/1093968009" 
+     

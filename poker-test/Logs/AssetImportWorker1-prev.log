@@ -1,0 +1,939 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.17f1c1 (1f35b2393d76) revision 2045362'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 16267 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/untity project/poker-test
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63300
+Successfully changed project path to: F:/untity project/poker-test
+F:/untity project/poker-test
+Using Asset Import Pipeline V2.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 46.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1c1 (1f35b2393d76)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/untity project/poker-test/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 530 (ID=0x1912)
+    Vendor:   
+    VRAM:     8133 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002972 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2397ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (495ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004259 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.765 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1767ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1530ms)
+			LoadAssemblies (563ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1959 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2398.
+Total: 5.188700 ms (FindLiveObjects: 0.394100 ms CreateObjectMapping: 0.159900 ms MarkObjects: 4.544200 ms  DeleteObjects: 0.088500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/AceofClubs.prefab
+  artifactKey: Guid(2c45d6560a8cc4dd9a0ba920fb1c1b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/AceofClubs.prefab using Guid(2c45d6560a8cc4dd9a0ba920fb1c1b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7966e2e86a7a839b9109f485770e9523') in 0.140945 seconds 
+  Import took 0.146377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/6ofDIamonds.prefab
+  artifactKey: Guid(cf1dd756317a94ebab9c2ecbe2bc6b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/6ofDIamonds.prefab using Guid(cf1dd756317a94ebab9c2ecbe2bc6b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df051fbdee3ca8ea6fd84521067659c6') in 0.016809 seconds 
+  Import took 0.022254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/2ofDiamonds.prefab
+  artifactKey: Guid(9833a7b7975c6471bbc26c9e5310dfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/2ofDiamonds.prefab using Guid(9833a7b7975c6471bbc26c9e5310dfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e73c7b43717ba7cde4ddb25af8e2ca') in 0.016167 seconds 
+  Import took 0.021208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/QueenofSpades.prefab
+  artifactKey: Guid(5e3fbebf23d644552858b99b90beed0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/QueenofSpades.prefab using Guid(5e3fbebf23d644552858b99b90beed0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee72999440d74dcd9d1563303832aa88') in 0.018186 seconds 
+  Import took 0.023557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/3ofSpades.prefab
+  artifactKey: Guid(976832e08b3024b44be9d739e3e1bcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/3ofSpades.prefab using Guid(976832e08b3024b44be9d739e3e1bcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1234126fb269e17c9167f06ca6f6f5') in 0.016263 seconds 
+  Import took 0.021472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/W Knight.prefab
+  artifactKey: Guid(1b1f559bfdac84ab388545154d81dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/W Knight.prefab using Guid(1b1f559bfdac84ab388545154d81dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717ed47be43b0a867e10d8ea1662c306') in 0.015031 seconds 
+  Import took 0.019792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/5ofClubs.prefab
+  artifactKey: Guid(c693748d2d0ab42279bd2c8f874a9345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/5ofClubs.prefab using Guid(c693748d2d0ab42279bd2c8f874a9345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1489aa732a8058d530443ae712b8d159') in 0.015651 seconds 
+  Import took 0.020956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/4ofSpades.prefab
+  artifactKey: Guid(a98e0b642c98242cc9ccd3d299b85591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/4ofSpades.prefab using Guid(a98e0b642c98242cc9ccd3d299b85591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f644402ec49e0ed525bf9f1813033b0') in 0.014562 seconds 
+  Import took 0.019879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/QueenofClubs.prefab
+  artifactKey: Guid(516c851f6a73d43ccb18bc420d4f133f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/QueenofClubs.prefab using Guid(516c851f6a73d43ccb18bc420d4f133f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d1afe14303da954558b92e515d49d3') in 0.015052 seconds 
+  Import took 0.020036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/9ofSPades.prefab
+  artifactKey: Guid(c1c7bf190be234760b463af74e04ae53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/9ofSPades.prefab using Guid(c1c7bf190be234760b463af74e04ae53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b0471a723536228d790c0863f3b7b1') in 0.017042 seconds 
+  Import took 0.022373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/10ofClubs.prefab
+  artifactKey: Guid(fcd9ec129b22d4559a13bcea50574886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/10ofClubs.prefab using Guid(fcd9ec129b22d4559a13bcea50574886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0390581a0f20cfe983cf6d0c5d4cff') in 0.015368 seconds 
+  Import took 0.019536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/QueenofHearts.prefab
+  artifactKey: Guid(0452c6d8f1a894d759f065f196de2d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/QueenofHearts.prefab using Guid(0452c6d8f1a894d759f065f196de2d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78db32926d57a60823a390de8395f15a') in 0.015411 seconds 
+  Import took 0.020701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/B Pawn.prefab
+  artifactKey: Guid(c1d452410c5854b63a2bcd1eb9eedf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/B Pawn.prefab using Guid(c1d452410c5854b63a2bcd1eb9eedf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5af78f921eb18fd316cb0ca8838aac7') in 0.017184 seconds 
+  Import took 0.036813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/B King.prefab
+  artifactKey: Guid(848517a1c9b224ec48e4f10a451b5ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/B King.prefab using Guid(848517a1c9b224ec48e4f10a451b5ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6516860d99dc628cf39224abba4b20d') in 0.015921 seconds 
+  Import took 0.019910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/JackofClubs.prefab
+  artifactKey: Guid(f6457ae5150c64cdda328df29bd98417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/JackofClubs.prefab using Guid(f6457ae5150c64cdda328df29bd98417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c59c9af1d9c76982e8dad6e278a8390') in 0.016784 seconds 
+  Import took 0.021179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/4ofDiamonds.prefab
+  artifactKey: Guid(9574bac6304c343d8851d5fec668aab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/4ofDiamonds.prefab using Guid(9574bac6304c343d8851d5fec668aab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f76502ef3c1a5be41ce329d0600d6d') in 0.015452 seconds 
+  Import took 0.020195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/KingofDiamonds.prefab
+  artifactKey: Guid(2df786d4e60384b2b8ea939329a1ee73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/KingofDiamonds.prefab using Guid(2df786d4e60384b2b8ea939329a1ee73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c03f23a8195951499ea81104346e162') in 0.016754 seconds 
+  Import took 0.022178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/10ofSpades.prefab
+  artifactKey: Guid(78a6c3db2573b494489a7d9bf6ff35dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/10ofSpades.prefab using Guid(78a6c3db2573b494489a7d9bf6ff35dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c9b43b55304f5709ab0aebcfed5014') in 0.016845 seconds 
+  Import took 0.023143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/W Pawn.prefab
+  artifactKey: Guid(5a859cfe4d0a54ee0b5efb4e49c516a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/W Pawn.prefab using Guid(5a859cfe4d0a54ee0b5efb4e49c516a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d16653cd7f2bdd0c30d637223faaa2') in 0.014108 seconds 
+  Import took 0.019906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/W King.prefab
+  artifactKey: Guid(11ca9bb6fe77b46139d8dc61f8dc9b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/W King.prefab using Guid(11ca9bb6fe77b46139d8dc61f8dc9b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b28874e0e2d266c408f0419c5b0e64') in 0.014621 seconds 
+  Import took 0.020436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/QueenofDiamonds.prefab
+  artifactKey: Guid(8838c227f4e544544840d2d9e0fc6a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/QueenofDiamonds.prefab using Guid(8838c227f4e544544840d2d9e0fc6a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc185889b6496eec4964e9bb6d803e66') in 0.018759 seconds 
+  Import took 0.024203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/6ofClubs.prefab
+  artifactKey: Guid(3bfb987a76eef4c48ab2a01298bde7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/6ofClubs.prefab using Guid(3bfb987a76eef4c48ab2a01298bde7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26b30966e2aaed0f8de945713f60560') in 0.016854 seconds 
+  Import took 0.022247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/5ofHearts.prefab
+  artifactKey: Guid(41ce6615b65fa404eb91512138e0244b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/5ofHearts.prefab using Guid(41ce6615b65fa404eb91512138e0244b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15b8cdaf5464cba9f3d534c4b832b54') in 0.015782 seconds 
+  Import took 0.020882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofSpades.prefab
+  artifactKey: Guid(61bb1b91a26b443f19eee32bb824aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofSpades.prefab using Guid(61bb1b91a26b443f19eee32bb824aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022f62f09e4c42152eb085f1046085cd') in 0.014239 seconds 
+  Import took 0.018660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/JackofHearts.prefab
+  artifactKey: Guid(2d1aca73401654a8f9e98cdc5e395352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/JackofHearts.prefab using Guid(2d1aca73401654a8f9e98cdc5e395352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63442812dea181ce63553f14c5e5eb27') in 0.014468 seconds 
+  Import took 0.020916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/7ofSpades.prefab
+  artifactKey: Guid(25ecd6fd4cb0e4c34877be838d1591e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/7ofSpades.prefab using Guid(25ecd6fd4cb0e4c34877be838d1591e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c770955fe2eb23c33876770d5c2de8a7') in 0.014206 seconds 
+  Import took 0.018097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/W Checker.prefab
+  artifactKey: Guid(74d0e4d5c5a534d2086a79c6ae356f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/W Checker.prefab using Guid(74d0e4d5c5a534d2086a79c6ae356f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d58575cfc2f6c15d73795c4daaafd13') in 0.013757 seconds 
+  Import took 0.018201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/3ofHearts.prefab
+  artifactKey: Guid(516777c70d6e84ed686375dd578dbbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/3ofHearts.prefab using Guid(516777c70d6e84ed686375dd578dbbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d1613ad2137a8818c79aa1c8fe9786') in 0.015220 seconds 
+  Import took 0.019664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/B Queen.prefab
+  artifactKey: Guid(bcb9f5a0e13234ad59ec30ef973fc839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/B Queen.prefab using Guid(bcb9f5a0e13234ad59ec30ef973fc839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3526e5fa8f282ef25e95c6aabf8823') in 0.015763 seconds 
+  Import took 0.020162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofClubs.prefab
+  artifactKey: Guid(c6fffe716c05942fb9c3d33824feaa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofClubs.prefab using Guid(c6fffe716c05942fb9c3d33824feaa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049333af947d576fbd4aaee2d37d3b88') in 0.015789 seconds 
+  Import took 0.021739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/KingofHearts.prefab
+  artifactKey: Guid(9a3a81c4aa610468580810d148c4a07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/KingofHearts.prefab using Guid(9a3a81c4aa610468580810d148c4a07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f2a3cb25e3a036dc2904c7b09ce5de') in 0.019889 seconds 
+  Import took 0.024754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/3ofDiamonds.prefab
+  artifactKey: Guid(6bbce635b96cb4a26a6cb77b4531e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/3ofDiamonds.prefab using Guid(6bbce635b96cb4a26a6cb77b4531e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bc54f6892fe2d3f07183f22be6aa63') in 0.015810 seconds 
+  Import took 0.019919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/9ofDiamonds.prefab
+  artifactKey: Guid(629408118b7a84cd880c10d2072809ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/9ofDiamonds.prefab using Guid(629408118b7a84cd880c10d2072809ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c648f82a942dd473267de403dc959e') in 0.013489 seconds 
+  Import took 0.018577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/2ofClubs.prefab
+  artifactKey: Guid(a36f180ed1f1746e9b5eca2dd78e6768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/2ofClubs.prefab using Guid(a36f180ed1f1746e9b5eca2dd78e6768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587ebd53479cf62d49d6b93f7061f287') in 0.015130 seconds 
+  Import took 0.020136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/KingofSpades.prefab
+  artifactKey: Guid(c1f81102df1d64a31bde3cc9122a19eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/KingofSpades.prefab using Guid(c1f81102df1d64a31bde3cc9122a19eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd73780f8beb683b9403103cf81b2ba9') in 0.016665 seconds 
+  Import took 0.021023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/6ofHearts.prefab
+  artifactKey: Guid(0e0e8f2be9b2e4e369c7d8691993f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/6ofHearts.prefab using Guid(0e0e8f2be9b2e4e369c7d8691993f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568e734c63af208b3c494f5579582257') in 0.015495 seconds 
+  Import took 0.019869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/B Checker.prefab
+  artifactKey: Guid(1de520cbfb3bd4beeb18814b3e7a9422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/B Checker.prefab using Guid(1de520cbfb3bd4beeb18814b3e7a9422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a989ddab0599eac522178097e2f548') in 0.014386 seconds 
+  Import took 0.020058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/7ofDIamonds.prefab
+  artifactKey: Guid(9fa25514444b644c5b653c27aa211e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/7ofDIamonds.prefab using Guid(9fa25514444b644c5b653c27aa211e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aba2637f86419be55312f98746415e0') in 0.017046 seconds 
+  Import took 0.021489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/AceofDiamonds.prefab
+  artifactKey: Guid(7618f5c57c76b4a1a9651632e5244851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/AceofDiamonds.prefab using Guid(7618f5c57c76b4a1a9651632e5244851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a73d09332416dcb774451067fb8477c') in 0.015417 seconds 
+  Import took 0.020130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/10ofHearts.prefab
+  artifactKey: Guid(687cd3a5c21d2498189c6299f9ca801b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/10ofHearts.prefab using Guid(687cd3a5c21d2498189c6299f9ca801b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad379cfce512f62e9e940af6b2282763') in 0.017504 seconds 
+  Import took 0.022719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/7ofHearts.prefab
+  artifactKey: Guid(94d79a99dbf314f348a94179d02fc9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/7ofHearts.prefab using Guid(94d79a99dbf314f348a94179d02fc9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7e0dd5ba41770c92b4ffdbb1baa776') in 0.020498 seconds 
+  Import took 0.025067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/B Bishop.prefab
+  artifactKey: Guid(c2f07e0574a4241d9a9042c286d64ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/B Bishop.prefab using Guid(c2f07e0574a4241d9a9042c286d64ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce65c5a754862db564f6cb212aa5b0bf') in 0.014864 seconds 
+  Import took 0.018759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/W Rook.prefab
+  artifactKey: Guid(29072c58f78a447e09e9ca55596cf76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/W Rook.prefab using Guid(29072c58f78a447e09e9ca55596cf76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293fbf4df2cc4943c29bb59df11d433a') in 0.014115 seconds 
+  Import took 0.018621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/9ofHearts.prefab
+  artifactKey: Guid(d6ea9b74da0494ac98430c029b790bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/9ofHearts.prefab using Guid(d6ea9b74da0494ac98430c029b790bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4791ca151414f2caa707e494f7e0e13') in 0.013641 seconds 
+  Import took 0.018907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/7ofClubs.prefab
+  artifactKey: Guid(c4f92debec4c0419496c7a8349f2ec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/7ofClubs.prefab using Guid(c4f92debec4c0419496c7a8349f2ec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04248f8e3a5a22d310704da2c800028') in 0.013051 seconds 
+  Import took 0.017455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/6ofSpades.prefab
+  artifactKey: Guid(f030d103dc684436e8e2db1ddcf3d99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/6ofSpades.prefab using Guid(f030d103dc684436e8e2db1ddcf3d99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba30455fe2e033b8d9446bbada5136fc') in 0.014763 seconds 
+  Import took 0.019202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/10ofDiamonds.prefab
+  artifactKey: Guid(0c92c7d7e0cc34a9da18cbd674199671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/10ofDiamonds.prefab using Guid(0c92c7d7e0cc34a9da18cbd674199671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8f31e1da875e97f43b95a4b3cfd7be') in 0.016796 seconds 
+  Import took 0.022373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/CheckerBoard.prefab
+  artifactKey: Guid(e187b316755304b8396d3c14fa53dde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/CheckerBoard.prefab using Guid(e187b316755304b8396d3c14fa53dde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8280efd3a33404c1de0bbe6c4d730b07') in 0.016595 seconds 
+  Import took 0.019870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/2ofSpades.prefab
+  artifactKey: Guid(a015c2a7549cd450685d2938072ff829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/2ofSpades.prefab using Guid(a015c2a7549cd450685d2938072ff829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824e09aa43f0a731e8b1277497e987a4') in 0.021909 seconds 
+  Import took 0.026827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/3ofClubs.prefab
+  artifactKey: Guid(fc654bed6581d46228d02fb7c1e822fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/3ofClubs.prefab using Guid(fc654bed6581d46228d02fb7c1e822fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31153b0c3ab4322b145ae9bb3f532e1') in 0.014546 seconds 
+  Import took 0.019081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/W Queen.prefab
+  artifactKey: Guid(710abb740f65c45f8afec4f4eb7045f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/W Queen.prefab using Guid(710abb740f65c45f8afec4f4eb7045f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d393aadd635f58960abc3d5f689ccb6') in 0.016317 seconds 
+  Import took 0.020754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/2ofHearts.prefab
+  artifactKey: Guid(877eb953a63fe45b99ac83665f5e588c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/2ofHearts.prefab using Guid(877eb953a63fe45b99ac83665f5e588c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4570b4c6c1b91dd2fd2ce2b9e2d4c59') in 0.018215 seconds 
+  Import took 0.023001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/4ofClubs.prefab
+  artifactKey: Guid(8395ddc67f95e49469de77ce898a1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/4ofClubs.prefab using Guid(8395ddc67f95e49469de77ce898a1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa45a32f1d630c733edcd5bdbd1dbd9') in 0.016157 seconds 
+  Import took 0.020822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/B Rook.prefab
+  artifactKey: Guid(56902b3aa76d64d758516d63a16b2014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/B Rook.prefab using Guid(56902b3aa76d64d758516d63a16b2014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab8ebe784eec974c9f1e8370b841177') in 0.011826 seconds 
+  Import took 0.017076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofHearts.prefab
+  artifactKey: Guid(556d5e6a3e2e5413ab3869339b7e8942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofHearts.prefab using Guid(556d5e6a3e2e5413ab3869339b7e8942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b470b70d96e6f9b05567901705d7d20') in 0.015923 seconds 
+  Import took 0.020275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/AceofHearts.prefab
+  artifactKey: Guid(1738ce26ff2ba4065875c313128b2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/AceofHearts.prefab using Guid(1738ce26ff2ba4065875c313128b2c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a778bcbe958836a26aaf256a5ba201d3') in 0.015150 seconds 
+  Import took 0.019897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/9ofClubs.prefab
+  artifactKey: Guid(c8f70a1b3e3484953b13d427e2d04933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/9ofClubs.prefab using Guid(c8f70a1b3e3484953b13d427e2d04933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a163e936bf9ec41aa006463a59e70f0') in 0.016786 seconds 
+  Import took 0.022029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/KingofClubs.prefab
+  artifactKey: Guid(0a0c66aaf5f054ba2a3e0b29482dea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/KingofClubs.prefab using Guid(0a0c66aaf5f054ba2a3e0b29482dea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fce053a7a21caaf7dbc2daf0104bb7') in 0.016910 seconds 
+  Import took 0.023656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/4ofHearts.prefab
+  artifactKey: Guid(7a223e15d3cc742558e7fa9588a80737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/4ofHearts.prefab using Guid(7a223e15d3cc742558e7fa9588a80737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f972c3bab432cc883c0e270402f89a') in 0.013897 seconds 
+  Import took 0.019235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/5ofDiamonds.prefab
+  artifactKey: Guid(a0d1b5324180442bebadf436960cc057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/5ofDiamonds.prefab using Guid(a0d1b5324180442bebadf436960cc057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41534fbf644464113ec33b245bc25bd2') in 0.015310 seconds 
+  Import took 0.019947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/W Bishop.prefab
+  artifactKey: Guid(a8f7e0e006bb0478fa8bb11ef060d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/W Bishop.prefab using Guid(a8f7e0e006bb0478fa8bb11ef060d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0459b5d5e064c896550502292020982') in 0.016024 seconds 
+  Import took 0.020920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofDiamonds.prefab
+  artifactKey: Guid(11d28bf3201814f50b206d392208003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofDiamonds.prefab using Guid(11d28bf3201814f50b206d392208003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347165848d15a851f821b3682086ac1d') in 0.018029 seconds 
+  Import took 0.022772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/5ofSPades.prefab
+  artifactKey: Guid(05bef4345bc68418295b6f3e57e92b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/5ofSPades.prefab using Guid(05bef4345bc68418295b6f3e57e92b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ee7f0f2916e568947228216fe9aada') in 0.014725 seconds 
+  Import took 0.018415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/JackofDiamonds.prefab
+  artifactKey: Guid(e5fe6318750c3483684ce5379ca38a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/JackofDiamonds.prefab using Guid(e5fe6318750c3483684ce5379ca38a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5ea490f1c154dbec0e69c7a5c9cd4d') in 0.058853 seconds 
+  Import took 0.063469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/AceofSpades.prefab
+  artifactKey: Guid(d0117bf69ca014581bf7fed8997c256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/AceofSpades.prefab using Guid(d0117bf69ca014581bf7fed8997c256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e421d0d7363dc5e90be713e44d012ca8') in 0.019734 seconds 
+  Import took 0.024893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/JackofSpades.prefab
+  artifactKey: Guid(d959e027c41e74a17990a59e7ad3c067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/JackofSpades.prefab using Guid(d959e027c41e74a17990a59e7ad3c067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213bd6fb9c915b97a0c9372d96756f68') in 0.016802 seconds 
+  Import took 0.021314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Chess/B Knight.prefab
+  artifactKey: Guid(cf5f373ea12384d0490189467be16f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Chess/B Knight.prefab using Guid(cf5f373ea12384d0490189467be16f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875cab2ea3e63d5956401146a334902e') in 0.015287 seconds 
+  Import took 0.020213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.749624 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofClubs.prefab
+  artifactKey: Guid(c6fffe716c05942fb9c3d33824feaa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofClubs.prefab using Guid(c6fffe716c05942fb9c3d33824feaa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4095444c0c92aae576706cade5b6257c') in 0.015157 seconds 
+  Import took 0.027387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.818387 seconds.
+  path: Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofClubs.prefab
+  artifactKey: Guid(c6fffe716c05942fb9c3d33824feaa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Prefabs/Cards/8ofClubs.prefab using Guid(c6fffe716c05942fb9c3d33824feaa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a430b312b5e13feeb121ff78b602b5ed') in 0.017875 seconds 
+  Import took 0.022033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.656305 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/2ofClubs.mat
+  artifactKey: Guid(c163304e2745c4866994fb5e25b8a2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/2ofClubs.mat using Guid(c163304e2745c4866994fb5e25b8a2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e825578d61279f21023fabb473ed69c6') in 0.044596 seconds 
+  Import took 0.050899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/6ofSpades.mat
+  artifactKey: Guid(47d6e802d5d4542be95cf5ba943114cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/6ofSpades.mat using Guid(47d6e802d5d4542be95cf5ba943114cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da8c3dbcc351e0aa27c9ed9745a57f7') in 0.012352 seconds 
+  Import took 0.031644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/3ofHearts.mat
+  artifactKey: Guid(a311b18256a0a4f1c917e8e169bb4c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/3ofHearts.mat using Guid(a311b18256a0a4f1c917e8e169bb4c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f5d6f5835fe274000f8fd3ae7f3f96') in 0.015114 seconds 
+  Import took 0.018426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/6ofDiamonds.mat
+  artifactKey: Guid(b772342598992437eaaad37fe9b4f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/6ofDiamonds.mat using Guid(b772342598992437eaaad37fe9b4f6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca574e428f9509ae3d9c103160225c5b') in 0.013568 seconds 
+  Import took 0.016938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/7fClubs.mat
+  artifactKey: Guid(1df46b9a6766e4df09c204e03a721bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/7fClubs.mat using Guid(1df46b9a6766e4df09c204e03a721bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb407ce4b009970e526137793e6ed325') in 0.018374 seconds 
+  Import took 0.022111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/4ofHearts.mat
+  artifactKey: Guid(877fa5675665b44ff81050dccef829cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/4ofHearts.mat using Guid(877fa5675665b44ff81050dccef829cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec24062b6725a255180e724ea6e17a8b') in 0.013338 seconds 
+  Import took 0.016971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/3ofClubs.mat
+  artifactKey: Guid(22ed5ad1bebde4fba8a669d5394ddd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/3ofClubs.mat using Guid(22ed5ad1bebde4fba8a669d5394ddd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5182dec3087f4e7e70b6708dccb7f4b8') in 0.015157 seconds 
+  Import took 0.018994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/7ofDiamonds.mat
+  artifactKey: Guid(4a0f18604f8e54a3cbf72cb77b6dc70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/7ofDiamonds.mat using Guid(4a0f18604f8e54a3cbf72cb77b6dc70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144259d0015133aea144e388217e26ba') in 0.015531 seconds 
+  Import took 0.021504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofClubs.mat
+  artifactKey: Guid(0bab6241571954a7496e8999607f1930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofClubs.mat using Guid(0bab6241571954a7496e8999607f1930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68efaa29365cdf357ecdf8dda797f52e') in 0.015138 seconds 
+  Import took 0.019366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/4ofDiamonds.mat
+  artifactKey: Guid(94d0de25cd53d4aa798a993dabf00089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/4ofDiamonds.mat using Guid(94d0de25cd53d4aa798a993dabf00089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a07d2f060f614e079f0e36e89c53d2') in 0.014082 seconds 
+  Import took 0.018075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/6ofHearts.mat
+  artifactKey: Guid(9c300e06b43094d8db5fe4e51bbb45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/6ofHearts.mat using Guid(9c300e06b43094d8db5fe4e51bbb45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b0bbc1dcf398d049c46f36d416cdf4') in 0.014932 seconds 
+  Import took 0.019498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofHearts.mat
+  artifactKey: Guid(1ed319b78737e4d8c8407899e443e97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofHearts.mat using Guid(1ed319b78737e4d8c8407899e443e97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b85c70cb41b4254cc76d309532ed6ce') in 0.015259 seconds 
+  Import took 0.019957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/7ofHearts.mat
+  artifactKey: Guid(fc2df52b4895f4c2380aca6519fd84c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/7ofHearts.mat using Guid(fc2df52b4895f4c2380aca6519fd84c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d734bddcadab52a517408be488887b2') in 0.012646 seconds 
+  Import took 0.016664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/2ofDiamonds.mat
+  artifactKey: Guid(0429c41a83e4f484a9521c818dce1482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/2ofDiamonds.mat using Guid(0429c41a83e4f484a9521c818dce1482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f557a7c2d4aa4bc0d0f0f9da3907b72') in 0.012016 seconds 
+  Import took 0.016639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/2ofspades.mat
+  artifactKey: Guid(d19ffd5b983b94e0780e59ebcdfaf53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/2ofspades.mat using Guid(d19ffd5b983b94e0780e59ebcdfaf53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf05003674a56c5bb6dab28c4902bed') in 0.013860 seconds 
+  Import took 0.018892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/4ofSpades.mat
+  artifactKey: Guid(8385f52ec5f85458889d416acac03e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/4ofSpades.mat using Guid(8385f52ec5f85458889d416acac03e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d69b4e86a529c4b96774f9048dd4233') in 0.012397 seconds 
+  Import took 0.028506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofSpades 1.mat
+  artifactKey: Guid(55f7e83ab604249a789d74de36333a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofSpades 1.mat using Guid(55f7e83ab604249a789d74de36333a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a46efbe6da646bce1df407f1d9aa1b') in 0.012708 seconds 
+  Import took 0.017000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/2ofClubs.mat
+  artifactKey: Guid(c163304e2745c4866994fb5e25b8a2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/2ofClubs.mat using Guid(c163304e2745c4866994fb5e25b8a2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e825578d61279f21023fabb473ed69c6') in 0.013639 seconds 
+  Import took 0.017881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/3ofSpades.mat
+  artifactKey: Guid(06d5ea810a6b7432d936dd35534f569e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/3ofSpades.mat using Guid(06d5ea810a6b7432d936dd35534f569e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb959716d6b390e5a1183c49ea0c6ec') in 0.010840 seconds 
+  Import took 0.015739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/2ofHearts.mat
+  artifactKey: Guid(9bf40b20400dc423182fbabeb1fadcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/2ofHearts.mat using Guid(9bf40b20400dc423182fbabeb1fadcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd146cc4e91494c7b7cdd6dd91457b756') in 0.012070 seconds 
+  Import took 0.016784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/6ofClubs.mat
+  artifactKey: Guid(3a436de61381c4a999b56dc6f63b0476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/6ofClubs.mat using Guid(3a436de61381c4a999b56dc6f63b0476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf62ac6979717b07c70dc933bedb670a') in 0.013612 seconds 
+  Import took 0.017908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/7ofSPades.mat
+  artifactKey: Guid(35687e0951b7c4db792ebeaff11fc9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/7ofSPades.mat using Guid(35687e0951b7c4db792ebeaff11fc9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e5deb6a2903e0202633bfe4a1d0750') in 0.013591 seconds 
+  Import took 0.017584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/4ofClubs.mat
+  artifactKey: Guid(e98e3d7c7f5594ec4b19f33cad530d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/4ofClubs.mat using Guid(e98e3d7c7f5594ec4b19f33cad530d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0914731c2c4000fe13c507a644a885d5') in 0.014516 seconds 
+  Import took 0.019139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofSpades.mat
+  artifactKey: Guid(7365372006f644068bc2159901827ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofSpades.mat using Guid(7365372006f644068bc2159901827ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59999137bb5997fbe2f7d203452f74b9') in 0.011967 seconds 
+  Import took 0.015859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofDiamonds.mat
+  artifactKey: Guid(7aebd68803c5d4abab7de1f4a4115c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofDiamonds.mat using Guid(7aebd68803c5d4abab7de1f4a4115c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0926316111a1a491060c1aff9f09fdb') in 0.016570 seconds 
+  Import took 0.021644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/3ofDiamonds.mat
+  artifactKey: Guid(e5dc8e7057d354ca783c9e1e0c85c584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/3ofDiamonds.mat using Guid(e5dc8e7057d354ca783c9e1e0c85c584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024c90e050f67f2def2055e71e74509d') in 0.013387 seconds 
+  Import took 0.018032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010833 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofDiamonds.mat
+  artifactKey: Guid(7aebd68803c5d4abab7de1f4a4115c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/5ofDiamonds.mat using Guid(7aebd68803c5d4abab7de1f4a4115c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0926316111a1a491060c1aff9f09fdb') in 0.018243 seconds 
+  Import took 0.022855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.059596 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/8ofClubs.mat
+  artifactKey: Guid(4d428f15bcf604d2f859f1eacd86418a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/8ofClubs.mat using Guid(4d428f15bcf604d2f859f1eacd86418a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98681c3a466612cff698610c9d5b4d35') in 0.014498 seconds 
+  Import took 0.018808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/8ofHearts.mat
+  artifactKey: Guid(a9316b8d3122c4bb59d0643a7a1c7866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/8ofHearts.mat using Guid(a9316b8d3122c4bb59d0643a7a1c7866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6965ac078d8c5f58a6f3d60c5a5f507a') in 0.013149 seconds 
+  Import took 0.017104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/9ofClubs.mat
+  artifactKey: Guid(81a5f75b2f84f467f92f2cdd9219f244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/9ofClubs.mat using Guid(81a5f75b2f84f467f92f2cdd9219f244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1c0afd972d491536cad69d3a61f68f') in 0.013869 seconds 
+  Import took 0.018283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/8ofSpades.mat
+  artifactKey: Guid(3e8f1fc108d544cbb9f3baaa25b518bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/8ofSpades.mat using Guid(3e8f1fc108d544cbb9f3baaa25b518bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f0e6c94383bf691227ecdcd7837a4e') in 0.012017 seconds 
+  Import took 0.016795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/LittleGamesAssetsPack/Materials/Cards/Cards/8ofDiamonds.mat
+  artifactKey: Guid(dbf74c9c77df644c1acfcfcb1beeed94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LittleGamesAssetsPack/Materials/Cards/Cards/8ofDiamonds.mat using Guid(dbf74c9c77df644c1acfcfcb1beeed94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53c3b8723807d043c3a78ac4d84e551') in 0.014688 seconds 
+  Import took 0.019001 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
